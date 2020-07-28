@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://navneet123:navneet123@cluster0.crlus.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "secret",
+    "githubToken": "b07d6095d213dce1868eb4ff35629d22e44d4538"
+  }
