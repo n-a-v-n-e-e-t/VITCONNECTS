@@ -47,14 +47,14 @@ router.post(
         }),
         { forceHttps: true }
       );
-
+        // create a new user if all conditions are met
       user = new User({
         name,
         email,
         avatar,
         password
       });
-
+      // encrypt the password and save
       const salt = await bcrypt.genSalt(10);
 
       user.password = await bcrypt.hash(password, salt);
